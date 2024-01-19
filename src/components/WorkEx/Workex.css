@@ -1,0 +1,13 @@
+#Workex{
+    background-color: #D7FBE8;
+}
+
+.exp1_img{
+    display: flex;
+    height: 150px;
+    width: 150px;
+}
+.bullet{
+    height: 30px;
+    width: 30px;
+}
