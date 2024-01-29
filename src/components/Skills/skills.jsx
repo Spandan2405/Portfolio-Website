@@ -20,7 +20,7 @@ import Programming from "../Images/Programming.webp"
 function Skills(){
     return (
     <section id="Skills">
-            <div class="container px-4 my-5 py-3 text-start">
+            <div class="container px-4 my-5 py-3 text-center">
                 <div class="mb-5 text-center">
                     <h2 class="display-4">Skills I Have</h2>
                 </div>
