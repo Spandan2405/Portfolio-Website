@@ -9,11 +9,11 @@ function Workex() {
             <div className="container">
             <h1 className="text-center display-4 my-3 p-3">Work Experience</h1>
             <div className="row">
-                <div className="work1 col-2">
+                <div className="work1 col-lg-3 col-sm-12">
                 <img src={ethnus} className="exp1_img mt-5" alt="workex-1"></img>
                 </div>
-                <div className="exp1 col-10 ">
-                <h2 className="py-2"> Web development Intern</h2>
+                <div className="exp1 col-lg-9 col-sm-12">
+                <h2 className="py-2 "> Web development Intern</h2>
                 <h5>MERN Full Stack Web Dev - Ethnus</h5>
                 <p>09/2023 - 11/2023</p>
                 <p>Learned a lot of new technologies and improved my skillset by
@@ -27,10 +27,10 @@ function Workex() {
                     </ul>
                     </p>
                     </div> 
-                <div className="work2 col-2">
+                <div className="work2 col-lg-3 col-sm-12">
                 <img src={seds} className="exp1_img mt-5" alt="workex-1"></img>
                 </div>
-                <div className="exp1 col-10 ">
+                <div className="exp1 col-lg-9 col-sm-12 ">
                 <h2 className="py-2">Outreach Member</h2>
                 <h5>SEDS Antariksh chapter ,VIT chennai</h5>
                 <p>03/2022 - Present</p>
