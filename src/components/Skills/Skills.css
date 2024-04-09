@@ -1,13 +1,13 @@
 #Skills{
     background-color:rgb(191, 228, 240);
 }
-.skillimg{
+/* .skillimg{
     filter: grayscale(75%);
 }
 .skillimg:hover{
     filter: none;
     transform: scale(1.1);
-}
+} */
 .icon {
     border-radius: 10%;
     background: transparent;
