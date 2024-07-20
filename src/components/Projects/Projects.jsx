@@ -1,10 +1,11 @@
 import React from "react";
-import uni from "../Images/Uni.png";
 import Dice from "../Images/Dice.png";
 import Drum from "../Images/Drum.png";
 import simon from "../Images/Simon.png";
 import quotegen from "../Images/QuoteGen.png"
 import keeper from "../Images/Keeper.png"
+import miranda from "../Images/PaperPortfolio.png"
+import coca from "../Images/Coca Cola.png"
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Carousel } from "react-bootstrap";
 import "../Projects/Projects.css";
@@ -64,11 +65,20 @@ function Projects() {
           </Carousel.Item>
           <Carousel.Item>
             <a
-              href="https://raw.githack.com/Spandan2405/Udemy_Projects/main/University%20Website/UNIVERSITY.html"
+              href="https://raw.githack.com/Spandan2405/Landing-pages/main/The%20Paper%20portfolio/index.html"
               target="_blank"
               className="link"
             >
-              <img className=" projects" src={uni} alt="Sixth slide" />
+              <img className=" projects" src={miranda} alt="Sixth slide" />
+            </a>
+          </Carousel.Item>
+          <Carousel.Item>
+            <a
+              href="https://raw.githack.com/Spandan2405/Landing-pages/main/Coca%20Cola/index.html"
+              target="_blank"
+              className="link"
+            >
+              <img className=" projects" src={coca} alt="Seventh slide" />
             </a>
           </Carousel.Item>
         </Carousel>
